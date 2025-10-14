@@ -49,7 +49,7 @@ basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-When we plotted this information, we saw that the number of people alive is higher than the number of people dead. Additionally, when looking at the percentage chart, we found that in the chart of dead people, two thirds were men and one third women. This indicates that the disease killed males faster females. In the alive chart, most women were still alive compared to men. 
+When we plotted this information, we saw that the number of people alive is higher than the number of people dead. Additionally, when looking at the percentage chart, we found that in the chart of dead people, two thirds were men and one third women. This indicates that the disease killed males faster than females. In the alive chart, most women were still alive compared to men. 
   
 
 
@@ -78,4 +78,4 @@ When we observed the inferential results, we found that the odds of males dying 
 
 ## Conclusions
 
-
+In this assignment, we were able to analyze COVID-19 data from South Korea. We noticed that this was some categorical-categorical data, so we used our helper file label Cat~Cat-3.rmd to help us answer some questions. We were able to analyze the data using graphical, numerical and inferential results. After analyzing our plots and tables, we concluded that males have a higher chance of dying from COVID-19 than females do. 
