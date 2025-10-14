@@ -64,10 +64,17 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
+
+
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+When we observed the inferential results, we found that the odds of males dying due to the COVID-19 disease in South Korea is 2.3 times higher than the females. This agrees with our past results since we saw that most of the people that died because of COVID are males. We also noticed that the P-value is low which means that the chances of males dying is higher than the chances of females dying due to the COVID-19 disease. 
 
 ## Conclusions
 
