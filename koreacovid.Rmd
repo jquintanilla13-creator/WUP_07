@@ -49,7 +49,7 @@ basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+When we plotted this information, we saw that the number of people alive is higher than the number of people dead. Additionally, when looking at the percentage chart, we found that in the chart of dead people, two thirds were men and one third women. This indicates that the disease killed males faster females. In the alive chart, most women were still alive compared to men. 
   
 
 
